@@ -1,0 +1,5 @@
+.git
+.env*
+.vercel
+qa-output
+node_modules
