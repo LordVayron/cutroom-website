@@ -25,3 +25,8 @@ Studio graphics revision: detailed HTML/CSS editing scenes replace sparse cards
 and icons. Only the brand screenshot is tilted; workspace and Director Mode remain
 level. Decorative scenes reuse fictional hero imagery, not private media. They
 illustrate concepts rather than claim to be screenshots of additional app features.
+
+Entrance animations now cover meaningful content groups across the entire page,
+including hero, problem, workflow, features, CTA, FAQ, and footer. Content remains
+visible without JavaScript or with reduced motion, including preference changes.
+The footer uses the original two-tone PNG without the former solid alpha mask.

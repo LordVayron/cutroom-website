@@ -17,5 +17,6 @@ The studio illustrations are code-native HTML/CSS using existing fictional
 imagery: an editing timeline, source/ranking/caption scenes, crop guides, audio
 waves, and a weekly plan. No additional image generation was needed for this pass.
 
-The footer renders the existing PNG wordmark as a solid plum CSS mask, avoiding
-the old darkened, low-contrast filter. No new logo was generated.
+The footer uses a trimmed 660-pixel copy of the original two-tone PNG wordmark,
+with no color mask or darkening filter, on a dark plum background. The solid
+mask was removed because it thickened the outlined lettering. No new logo was generated.
