@@ -1,5 +1,7 @@
 # Cutroom landing page
 
+Live: https://cutroom-website-delta.vercel.app
+
 Responsive, buildless product website. The editing app is separate:
 https://github.com/LordVayron/cutroom
 
@@ -13,3 +15,8 @@ belong in this repository. All product download buttons target the public app re
 
 The site uses Google Fonts (an external font request); it has no analytics,
 cookies, account forms, or tracking scripts. Font fallbacks work offline.
+
+Visual revision: clearer problem/workflow/feature sections, 2× lossless application
+captures, deliberate workspace perspective, reduced-motion-aware scroll entrances,
+a solid plum footer wordmark, and fictional background clip imagery. See ASSETS.md
+for asset provenance. No private episodes are used.
