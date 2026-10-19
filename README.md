@@ -20,3 +20,8 @@ Visual revision: clearer problem/workflow/feature sections, 2× lossless applica
 captures, deliberate workspace perspective, reduced-motion-aware scroll entrances,
 a solid plum footer wordmark, and fictional background clip imagery. See ASSETS.md
 for asset provenance. No private episodes are used.
+
+Studio graphics revision: detailed HTML/CSS editing scenes replace sparse cards
+and icons. Only the brand screenshot is tilted; workspace and Director Mode remain
+level. Decorative scenes reuse fictional hero imagery, not private media. They
+illustrate concepts rather than claim to be screenshots of additional app features.
