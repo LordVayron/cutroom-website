@@ -30,3 +30,7 @@ Entrance animations now cover meaningful content groups across the entire page,
 including hero, problem, workflow, features, CTA, FAQ, and footer. Content remains
 visible without JavaScript or with reduced motion, including preference changes.
 The footer uses the original two-tone PNG without the former solid alpha mask.
+
+GitHub actions use a shared branded treatment: GitHub mark, sage/plum surfaces,
+separate arrow detail, keyboard focus, and reduced-motion-aware hover effects.
+Repository destinations remain unchanged.
