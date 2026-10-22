@@ -1,4 +1,25 @@
-// Keep this page useful without JavaScript. Enhance section navigation only.
+// Progressive enhancement: readable content and install prompt work without JS.
+const copyButton = document.querySelector('.copy-prompt');
+const installPrompt = document.querySelector('#install-prompt');
+const copyStatus = document.querySelector('.copy-status');
+if (copyButton && installPrompt && copyStatus) {
+  copyButton.hidden = false;
+  copyButton.addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(installPrompt.value.trim());
+      copyButton.classList.add('is-copied');
+      copyButton.querySelector('.copy-label').textContent = 'Prompt copied';
+      copyStatus.textContent = 'Paste it into Codex or Claude Code to get started.';
+    } catch {
+      copyButton.classList.remove('is-copied');
+      copyButton.querySelector('.copy-label').textContent = 'Copy install prompt';
+      installPrompt.closest('details').open = true;
+      installPrompt.focus();
+      installPrompt.select();
+      copyStatus.textContent = 'Automatic copy is unavailable. Copy the selected prompt below.';
+    }
+  });
+}
 const sections = [...document.querySelectorAll('main section[id]')];
 if ('IntersectionObserver' in window) {
   const observer = new IntersectionObserver(entries => {

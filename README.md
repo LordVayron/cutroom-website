@@ -34,3 +34,10 @@ The footer uses the original two-tone PNG without the former solid alpha mask.
 GitHub actions use a shared branded treatment: GitHub mark, sage/plum surfaces,
 separate arrow detail, keyboard focus, and reduced-motion-aware hover effects.
 Repository destinations remain unchanged.
+
+Editorial revision (2026-10-22): stronger product-definition and feature-section
+hierarchy, with a branded closing install-prompt handoff. The copy button copies
+the public repository URL and safe local setup instructions, never credentials.
+Clipboard denial opens a selectable prompt; without JavaScript the same prompt
+remains available through native details/textarea controls. Desktop, tablet,
+mobile, clipboard success/denial, and no-JavaScript behavior were checked.

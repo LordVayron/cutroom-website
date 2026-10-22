@@ -1,0 +1,41 @@
+/* A quieter editorial rhythm, using the existing Cutroom type and palette. */
+.product-definition{position:relative;grid-template-columns:1.1fr 1fr;gap:clamp(40px,8vw,120px);padding:64px 0 20px;margin-top:80px;align-items:center;border-top:1px solid #69426335}
+.product-definition:before{content:'✳';position:absolute;top:-19px;left:0;background:var(--paper);padding-right:20px;color:var(--plum);font-size:29px;line-height:36px}
+.definition-label{font-size:9px;letter-spacing:.17em;margin-bottom:24px;color:var(--plum)}
+.definition-title h2{font-family:var(--sans);font-size:clamp(38px,4.1vw,62px);line-height:1.08;letter-spacing:-.055em}
+.definition-title h2 em{font-family:var(--serif);font-size:1.25em;line-height:.95}
+.definition-promise{font-size:26px;line-height:1.25;letter-spacing:-.025em}
+.definition-promise em{font:italic 1.35em/1.1 var(--serif);color:var(--plum)}
+.definition-story .definition-description{font:14px/1.8 var(--sans);margin-top:22px;max-width:380px}
+.definition-signature{display:flex;align-items:center;gap:10px;font-size:8px;letter-spacing:.14em;color:var(--plum);margin-top:26px}
+.definition-signature span{font-size:20px}
+.details-heading{position:relative;align-items:end;margin-bottom:44px;padding-top:46px;border-top:1px solid #69426330;gap:40px}
+.details-heading .eyebrow{margin-bottom:21px;font-size:9px}
+.details-heading h2{text-align:left;font-size:clamp(38px,4vw,60px);line-height:1.04}
+.details-heading h2 em{color:var(--plum);font-size:1.12em}
+.details-intro{color:var(--muted);font-size:14px;line-height:1.8;padding-bottom:4px}
+.get-started{position:relative}
+.install-handoff{width:min(100%,580px);margin:36px auto 0;padding:32px 38px 27px;border:1px solid #bca7b64a;border-radius:25px;background:radial-gradient(ellipse at 90% 0%,#69426313,transparent 75%),#f8f0e5;box-shadow:0 18px 60px #69426308}
+.handoff-label{display:flex;align-items:center;justify-content:center;gap:9px;font-size:8px;letter-spacing:.12em;color:var(--plum)}
+.handoff-label>span{font-size:21px}
+.get-started .install-handoff>p:not(.copy-status){font-size:20px;line-height:1.45;letter-spacing:-.025em;margin:16px auto 23px;max-width:none;color:var(--ink)}
+.copy-prompt{appearance:none;border:1px solid #8d6681;background:linear-gradient(120deg,#76506e,#503349);box-shadow:inset 0 1px #ffffff26,0 8px 22px #69426320;color:var(--paper);font-family:var(--sans);cursor:pointer;gap:12px;padding:14px 17px 14px 22px;min-height:55px;min-width:245px}
+.copy-prompt[hidden]{display:none}
+.copy-prompt:before{display:none}
+.get-started .copy-prompt{gap:12px;min-width:270px;min-height:58px;padding:12px 14px 12px 22px}
+.get-started .copy-prompt .copy-label{display:block;width:auto;height:auto;margin:0;border:0;border-radius:0;background:none;transform:none;white-space:nowrap;letter-spacing:0}
+.get-started .copy-prompt .copy-arrow{width:30px;height:30px;margin-left:4px;flex:0 0 30px}
+.copy-prompt .copy-label{font-size:14px;font-weight:500;flex:1;text-align:left}
+.copy-arrow{display:grid;place-items:center;background:#ffffff12;border:1px solid #ffffff20;border-radius:50%;width:30px;height:30px;font-size:18px}
+.copy-prompt:hover{box-shadow:inset 0 1px #ffffff26,0 12px 30px #69426330}
+.copy-prompt:focus-visible,.install-prompt-details summary:focus-visible,.install-prompt-details textarea:focus-visible{outline:3px solid #8d9c63;outline-offset:5px}
+.copy-prompt.is-copied{background:#3d4934;border-color:#8d9c63}
+.get-started .copy-status{font-size:11px;min-height:18px;margin:10px 0;color:var(--plum);line-height:1.5}
+.install-prompt-details{text-align:left;border-top:1px solid #69426320;padding-top:12px}
+.install-prompt-details summary{cursor:pointer;text-align:center;color:var(--muted);font-size:11px;padding:5px}
+.install-prompt-details textarea{display:block;width:100%;margin-top:14px;resize:vertical;padding:16px;border:1px solid #69426335;border-radius:12px;background:#f5ecdf;color:var(--ink);font:12px/1.7 var(--sans)}
+.handoff-github{display:block;font-size:11px;color:var(--muted);margin-top:17px}
+.handoff-github span{color:var(--plum);white-space:nowrap;border-bottom:1px solid #69426345;padding-bottom:2px}
+.get-started>.setup-note{max-width:490px;margin-inline:auto}
+@media(max-width:700px){.product-definition{display:grid;grid-template-columns:1fr;gap:28px;margin-top:50px;padding-top:40px}.definition-title h2{font-size:43px}.definition-promise{font-size:24px}.definition-story .definition-description{max-width:none}.details-heading{display:block;padding-top:34px;margin-bottom:30px}.details-intro{margin-top:22px}.details-heading h2{font-size:43px}.install-handoff{padding:26px 20px 22px;border-radius:22px}.handoff-label{font-size:7px;letter-spacing:.08em}.get-started .install-handoff>p:not(.copy-status){font-size:19px}.copy-prompt{width:100%;min-width:0}.handoff-github{font-size:10px}}
+@media(prefers-reduced-motion:reduce){.copy-prompt{transition:none}.copy-prompt:hover{transform:none}}
