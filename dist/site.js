@@ -8,11 +8,11 @@ if (copyButton && installPrompt && copyStatus) {
     try {
       await navigator.clipboard.writeText(installPrompt.value.trim());
       copyButton.classList.add('is-copied');
-      copyButton.querySelector('.copy-label').textContent = 'Prompt copied';
+      copyButton.querySelector('.copy-label').textContent = 'Copied';
       copyStatus.textContent = 'Paste it into Codex or Claude Code to get started.';
     } catch {
       copyButton.classList.remove('is-copied');
-      copyButton.querySelector('.copy-label').textContent = 'Copy install prompt';
+      copyButton.querySelector('.copy-label').textContent = 'Copy';
       installPrompt.closest('details').open = true;
       installPrompt.focus();
       installPrompt.select();

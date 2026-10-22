@@ -41,3 +41,9 @@ the public repository URL and safe local setup instructions, never credentials.
 Clipboard denial opens a selectable prompt; without JavaScript the same prompt
 remains available through native details/textarea controls. Desktop, tablet,
 mobile, clipboard success/denial, and no-JavaScript behavior were checked.
+
+Follow-up correction: the final GitHub CTA remains a full standalone button.
+A separate compact, branded command bar shows the repository and setup request,
+with a Copy action and expandable full safety instructions. The definition now
+uses a plum illustrated long-video-to-clips interlude; the finishing section has
+a dedicated editorial title treatment rather than the former small text row.
